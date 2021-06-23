@@ -1,0 +1,25 @@
+.text-summary {
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.text-summary * {
+  width: 74%;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .text-summary {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .text-summary * {
+    font-size: 12px;
+    width: 100%;
+  }
+}
